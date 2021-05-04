@@ -1,0 +1,15 @@
+.chart {
+  width: 70% !important;
+  margin-top: 40px;
+}
+
+.chart__datatype {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+@media (max-width: 990px) {
+  .chart {
+    width: 100% !important;
+  }
+}

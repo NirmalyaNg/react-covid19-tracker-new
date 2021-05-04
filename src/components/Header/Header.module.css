@@ -1,0 +1,8 @@
+.header {
+  margin-top: 50px;
+}
+
+.header__image {
+  width: 300px;
+  object-fit: contain;
+}

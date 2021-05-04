@@ -1,0 +1,10 @@
+.countryPicker {
+  margin-top: 40px !important;
+  width: 30% !important;
+}
+
+@media (max-width: 660px) {
+  .countryPicker {
+    width: 100% !important;
+  }
+}

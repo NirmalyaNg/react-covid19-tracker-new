@@ -1,0 +1,21 @@
+.infoCard:not(:last-child) {
+  margin-right: 20px !important;
+}
+
+.infoCard__red {
+  border-bottom: 10px solid rgb(255, 0, 0);
+}
+.infoCard__blue {
+  border-bottom: 10px solid rgb(0, 0, 255);
+}
+.infoCard__green {
+  border-bottom: 10px solid rgb(0, 255, 0);
+}
+
+@media (max-width: 990px) {
+  .infoCard {
+    margin-right: 0px;
+    width: 100%;
+    margin-bottom: 15px !important;
+  }
+}

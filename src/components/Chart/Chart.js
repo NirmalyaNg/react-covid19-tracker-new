@@ -47,7 +47,7 @@ const Chart = ({ country }) => {
           //backgroundColor: "rgba(0,255,0,0.5)",
         },
         {
-          labels: "Deaths",
+          label: "Deaths",
           data:
             chartType === "cummulative"
               ? dailyData?.deaths.map((item) => item.value)
